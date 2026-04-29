@@ -9,10 +9,12 @@ data library (data is fetched live).
 
 ## Contents
 
-- [`MFE230E_PS5.ipynb`](MFE230E_PS5.ipynb) — fully executed notebook with code, tables, and
-  figures for all questions Q1–Q9.
+- [`MFE230E_PS5.ipynb`](MFE230E_PS5.ipynb) — unified, fully executed notebook with code,
+  tables, and figures for all questions Q1–Q9. Q2(a) compares the size/BM and size/OP
+  cross-sections; Q5(a) reports both intercept-included and no-intercept two-step CS
+  regressions.
 - [`build_notebook.py`](build_notebook.py) — the builder script that constructs and executes
-  the notebook from scratch via `nbformat` + `nbconvert`.
+  the notebook from scratch via `nbformat` + `nbconvert`. Saves headline figures to `figs/`.
 
 ## Coverage
 
