@@ -13,6 +13,9 @@ data library (data is fetched live).
   tables, and figures for all questions Q1–Q9. Q2(a) compares the size/BM and size/OP
   cross-sections; Q5(a) reports both intercept-included and no-intercept two-step CS
   regressions.
+- [`MFE230E_PS5.pdf`](MFE230E_PS5.pdf) — 10-page LaTeX writeup (compiled).
+- [`MFE230E_PS5.tex`](MFE230E_PS5.tex) — LaTeX source for the writeup.
+- [`figs/`](figs/) — figures referenced by the LaTeX writeup.
 - [`build_notebook.py`](build_notebook.py) — the builder script that constructs and executes
   the notebook from scratch via `nbformat` + `nbconvert`. Saves headline figures to `figs/`.
 
